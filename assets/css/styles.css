@@ -1,0 +1,269 @@
+@font-face {
+  font-family: 'Scriptina';
+  src: url("../fonts/scriptina-regular.ttf");
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/proximaNova-regular.ttf");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header.hero {
+  background: radial-gradient(circle, rgba(86,83,76,0.5), transparent),
+  url("../images1/intro1.jpg") 
+  no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  position: relative; 
+}
+
+nav,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  padding: 0 10%;
+  background: rgba(58, 52, 38, 0.5);
+}
+
+.main-nav li a {
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.main-nav a:hover {
+  color: #deceb6;
+}
+
+
+
+.hero h1 {
+  margin-top: -17px;
+  font-family: Scriptina;
+  font-size: 30px;
+}
+
+header nav .main-nav {
+  width: 60%;
+}
+
+
+
+.intro {
+  text-align: center;
+  overflow: auto;
+}
+
+.intro h1 {
+  margin: 150px 0 0 0;
+  font-size: 5rem;
+  font-family:'Kavoon',serif;
+  letter-spacing: 5px;
+  text-shadow: 0 0 5px rgba(86,83,76,.7);
+}
+
+.intro img {
+  margin: 50px 0;
+}
+
+.intro p {
+  max-width: 450px;
+  margin: 0 auto;
+  font-family: 'Proxima Nova';
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px rgba(86,83,76,.7);
+}
+
+.tenor-gif-embed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto 200px auto;
+  transition: .5s;
+}
+
+.secondwin {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.text {
+  width: 50%;
+  padding: 0 5%;
+  color: #56534c;
+  font-family: 'Alegreya', serif;
+}
+.text h1 {
+  text-align:center;
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.text h2 {
+  margin: 0;
+  font-size: 16px;
+  color: #a47d5e;
+  text-transform: uppercase;
+}
+
+.desc {
+  font-family: 'Proxima Nova';
+}
+
+blockquote {
+  width: 80%;
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 20px 50px;
+  position: relative;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #eca5a5ef;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.images {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.images img {
+  width: 49%;
+}
+
+.wavy-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+}
+
+.images h1 {
+  width: 30%;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 30px;
+  color: #a47d5e;
+  font-weight: normal;
+}
+
+
+.fourthwin {
+  background: url("../images1/back.jpg");
+  background-repeat:no-repeat center center /cover;
+  width: 100%;
+  height: 700px;
+  background-size: 100% 100%;
+}
+
+.steps {
+    position: relative;
+    top:35%;
+    float:right ;
+    transform:translate(-50%,-50%) ;
+    width:400px;
+    height:600px;
+    padding:10px;
+    color: #56534c;
+    font-family: 'Alegreya', serif;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    
+    border-radius:12px;
+    text-align:center;
+    margin-top:3%;
+
+}
+
+
+.thirdwin {
+  padding: 100px 10%;
+  display:inline-block;
+  flex-wrap: wrap;
+  background-color: lavenderblush;
+  margin-top:rem;
+  
+}
+.thirdwin h1{
+  text-align:center;
+}
+
+
+
+.fifthwin {
+  padding: 0 10%;
+  display:inline-flex;
+  flex-wrap: nowrap; 
+  justify-content: space-between;
+  background: #f3f1e9;
+  background-repeat:no-repeat center center /cover;
+  width: 100%;
+  height: 700px;
+  background-size: 100% 100%;
+}
+ .fifthwin h1{
+  color: #56534c;
+  font-size:2rem;
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+
+
+.arm{
+position:relative;
+    top:35%;
+    transform:translate(-50%,-50%) ;
+    left:10%;
+    width:350px;
+    height:500px;
+    padding:10px;
+    color: #56534c;
+    font-family: 'Alegreya', serif;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    background-color: rgba(236, 197, 212, 0.945);
+    border-radius:12px;
+   margin-left: 0rem;
+    margin-top:7%;
+}
+  
